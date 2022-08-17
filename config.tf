@@ -5,12 +5,15 @@ variable "ec2-type" {
 variable "ec2-name" {
   default = "vpn"
 }
+variable "key" {
+  default = "terra2"
+}
 # ------------------------------------------------------------>
 # Region ----------------------------------------------------->
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 variable "availability_zone" {
-  default = "ap-south-1a"
+  default = "us-east-1a"
 }
 # ------------------------------------------------------------>
