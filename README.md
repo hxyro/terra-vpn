@@ -16,7 +16,7 @@ terraform apply --auto-approve
 ```
 cat /home/ec2-user/user-pass
 ```
-copy user name and password, open public_ip of your instance in browser to login to OpenVpn AC
+Open public_ip of your instance to the browser and use these user name and password to login to your OpenVpn Access Server
   
 ## Clean up resources
 
